@@ -1,0 +1,22 @@
+Description: Don't build/install documentation, which is GFDL licensed and
+ thus considered non-free.
+
+
+--- libbinio-1.5+dfsg.orig/Makefile.am
++++ libbinio-1.5+dfsg/Makefile.am
+@@ -1,4 +1,4 @@
+-SUBDIRS = src doc
++SUBDIRS = src
+ 
+ EXTRA_DIST = INSTALL.unix INSTALL.win32 INSTALL.dos Makefile.wat Makefile.bt \
+ 	libbinio.qpg binio.spec binio_mdk.spec depcomp libbinio.pc.in
+--- libbinio-1.5+dfsg.orig/configure.ac
++++ libbinio-1.5+dfsg/configure.ac
+@@ -1,6 +1,6 @@
+ AC_INIT(binio,1.5,[dn.tlp@gmx.net],libbinio)
+ AC_CONFIG_SRCDIR(src/binio.cpp)
+-AC_CONFIG_FILES([Makefile src/Makefile doc/Makefile src/binio.h libbinio.pc])
++AC_CONFIG_FILES([Makefile src/Makefile src/binio.h libbinio.pc])
+ AM_INIT_AUTOMAKE
+ AM_MAINTAINER_MODE
+ #AM_DISABLE_SHARED

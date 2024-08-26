@@ -1,0 +1,279 @@
+libbinio.so.1 libbinio1v5 #MINVER#
+ (c++)"binfstream::open(char const*, int)@Base" 1.4+dfsg1
+ (c++)"binfstream::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)@Base" 1.4+dfsg1
+ (c++)"binfstream::binfstream(char const*, int)@Base" 1.4+dfsg1
+ (c++)"binfstream::binfstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)@Base" 1.4+dfsg1
+ (c++)"binfstream::binfstream()@Base" 1.4+dfsg1
+ (c++)"binfstream::binfstream(char const*, int)@Base" 1.4+dfsg1
+ (c++)"binfstream::binfstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)@Base" 1.4+dfsg1
+ (c++)"binfstream::binfstream()@Base" 1.4+dfsg1
+ (c++)"binfstream::~binfstream()@Base" 1.4+dfsg1
+ (c++)"binfstream::~binfstream()@Base" 1.4+dfsg1
+ (c++)"binfstream::~binfstream()@Base" 1.4+dfsg1
+ (c++)"binistream::readString(char*, unsigned long)@Base" 1.4+dfsg1
+ (c++)"binistream::readString(char*, unsigned long, char)@Base" 1.4+dfsg1
+ (c++)"binistream::readString[abi:cxx11](char)@Base" 1.4+dfsg1
+ (c++)"binistream::ieee_double2float(unsigned char*)@Base" 1.4+dfsg1
+ (c++)"binistream::ieee_single2float(unsigned char*)@Base" 1.4+dfsg1
+ (c++)"binistream::ateof()@Base" 1.4+dfsg1
+ (c++)"binistream::ignore(unsigned long)@Base" 1.4+dfsg1
+ (c++)"binistream::peekInt(unsigned int)@Base" 1.4+dfsg1
+ (c++)"binistream::readInt(unsigned int)@Base" 1.4+dfsg1
+ (c++)"binistream::peekFloat(binio::FType)@Base" 1.4+dfsg1
+ (c++)"binistream::readFloat(binio::FType)@Base" 1.4+dfsg1
+ (c++)"binistream::binistream()@Base" 1.4+dfsg1
+ (c++)"binistream::binistream()@Base" 1.4+dfsg1
+ (c++)"binistream::~binistream()@Base" 1.4+dfsg1
+ (c++)"binistream::~binistream()@Base" 1.4+dfsg1
+ (c++)"binistream::~binistream()@Base" 1.4+dfsg1
+ (c++|arch=alpha powerpc powerpcspe ppc64 ppc64el s390x sparc)"binostream::writeFloat(__float128, binio::FType)@Base" 1.4+dfsg1
+ (c++|arch=!alpha !powerpc !powerpcspe !ppc64 !ppc64el !s390x !sparc)"binostream::writeFloat(long double, binio::FType)@Base" 1.4+dfsg1
+ (c++)"binostream::writeString(char const*, unsigned long)@Base" 1.4+dfsg1
+ (c++)"binostream::writeString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@Base" 1.4+dfsg1
+ (c++|arch=alpha powerpc powerpcspe ppc64 ppc64el s390x sparc)"binostream::float2ieee_double(__float128, unsigned char*)@Base" 1.4+dfsg1
+ (c++|arch=alpha powerpc powerpcspe ppc64 ppc64el s390x sparc)"binostream::float2ieee_single(__float128, unsigned char*)@Base" 1.4+dfsg1
+ (c++|arch=!alpha !powerpc !powerpcspe !ppc64 !ppc64el !s390x !sparc)"binostream::float2ieee_double(long double, unsigned char*)@Base" 1.4+dfsg1
+ (c++|arch=!alpha !powerpc !powerpcspe !ppc64 !ppc64el !s390x !sparc)"binostream::float2ieee_single(long double, unsigned char*)@Base" 1.4+dfsg1
+ (c++)"binostream::writeInt(long long, unsigned int)@Base" 1.4+dfsg1
+ (c++)"binostream::binostream()@Base" 1.4+dfsg1
+ (c++)"binostream::binostream()@Base" 1.4+dfsg1
+ (c++)"binostream::~binostream()@Base" 1.4+dfsg1
+ (c++)"binostream::~binostream()@Base" 1.4+dfsg1
+ (c++)"binostream::~binostream()@Base" 1.4+dfsg1
+ (c++)"binsstream::binsstream(void*, unsigned long)@Base" 1.4+dfsg1
+ (c++)"binsstream::binsstream(void*, unsigned long)@Base" 1.4+dfsg1
+ (c++)"binsstream::~binsstream()@Base" 1.4+dfsg1
+ (c++)"binsstream::~binsstream()@Base" 1.4+dfsg1
+ (c++)"binsstream::~binsstream()@Base" 1.4+dfsg1
+ (c++)"binwstream::pos()@Base" 1.4+dfsg1
+ (c++)"binwstream::seek(long, binio::Offset)@Base" 1.4+dfsg1
+ (c++)"binwstream::getByte()@Base" 1.4+dfsg1
+ (c++)"binwstream::putByte(unsigned char)@Base" 1.4+dfsg1
+ (c++)"binwstream::binwstream(std::basic_iostream<char, std::char_traits<char> >*)@Base" 1.4+dfsg1
+ (c++)"binwstream::binwstream(std::basic_iostream<char, std::char_traits<char> >*)@Base" 1.4+dfsg1
+ (c++)"binwstream::~binwstream()@Base" 1.4+dfsg1
+ (c++)"binwstream::~binwstream()@Base" 1.4+dfsg1
+ (c++)"binwstream::~binwstream()@Base" 1.4+dfsg1
+ (c++)"binifstream::open(char const*, int)@Base" 1.4+dfsg1
+ (c++)"binifstream::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)@Base" 1.4+dfsg1
+ (c++)"binifstream::getByte()@Base" 1.4+dfsg1
+ (c++)"binifstream::binifstream(char const*, int)@Base" 1.4+dfsg1
+ (c++)"binifstream::binifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)@Base" 1.4+dfsg1
+ (c++)"binifstream::binifstream()@Base" 1.4+dfsg1
+ (c++)"binifstream::binifstream(char const*, int)@Base" 1.4+dfsg1
+ (c++)"binifstream::binifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)@Base" 1.4+dfsg1
+ (c++)"binifstream::binifstream()@Base" 1.4+dfsg1
+ (c++)"binifstream::~binifstream()@Base" 1.4+dfsg1
+ (c++)"binifstream::~binifstream()@Base" 1.4+dfsg1
+ (c++)"binifstream::~binifstream()@Base" 1.4+dfsg1
+ (c++)"binisstream::getByte()@Base" 1.4+dfsg1
+ (c++)"binisstream::binisstream(void*, unsigned long)@Base" 1.4+dfsg1
+ (c++)"binisstream::binisstream(void*, unsigned long)@Base" 1.4+dfsg1
+ (c++)"binisstream::~binisstream()@Base" 1.4+dfsg1
+ (c++)"binisstream::~binisstream()@Base" 1.4+dfsg1
+ (c++)"binisstream::~binisstream()@Base" 1.4+dfsg1
+ (c++)"biniwstream::pos()@Base" 1.4+dfsg1
+ (c++)"biniwstream::seek(long, binio::Offset)@Base" 1.4+dfsg1
+ (c++)"biniwstream::getByte()@Base" 1.4+dfsg1
+ (c++)"biniwstream::biniwstream(std::basic_istream<char, std::char_traits<char> >*)@Base" 1.4+dfsg1
+ (c++)"biniwstream::biniwstream(std::basic_istream<char, std::char_traits<char> >*)@Base" 1.4+dfsg1
+ (c++)"biniwstream::~biniwstream()@Base" 1.4+dfsg1
+ (c++)"biniwstream::~biniwstream()@Base" 1.4+dfsg1
+ (c++)"biniwstream::~biniwstream()@Base" 1.4+dfsg1
+ (c++)"binofstream::open(char const*, int)@Base" 1.4+dfsg1
+ (c++)"binofstream::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)@Base" 1.4+dfsg1
+ (c++)"binofstream::putByte(unsigned char)@Base" 1.4+dfsg1
+ (c++)"binofstream::binofstream(char const*, int)@Base" 1.4+dfsg1
+ (c++)"binofstream::binofstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)@Base" 1.4+dfsg1
+ (c++)"binofstream::binofstream()@Base" 1.4+dfsg1
+ (c++)"binofstream::binofstream(char const*, int)@Base" 1.4+dfsg1
+ (c++)"binofstream::binofstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)@Base" 1.4+dfsg1
+ (c++)"binofstream::binofstream()@Base" 1.4+dfsg1
+ (c++)"binofstream::~binofstream()@Base" 1.4+dfsg1
+ (c++)"binofstream::~binofstream()@Base" 1.4+dfsg1
+ (c++)"binofstream::~binofstream()@Base" 1.4+dfsg1
+ (c++)"binosstream::putByte(unsigned char)@Base" 1.4+dfsg1
+ (c++)"binosstream::binosstream(void*, unsigned long)@Base" 1.4+dfsg1
+ (c++)"binosstream::binosstream(void*, unsigned long)@Base" 1.4+dfsg1
+ (c++)"binosstream::~binosstream()@Base" 1.4+dfsg1
+ (c++)"binosstream::~binosstream()@Base" 1.4+dfsg1
+ (c++)"binosstream::~binosstream()@Base" 1.4+dfsg1
+ (c++)"binowstream::pos()@Base" 1.4+dfsg1
+ (c++)"binowstream::seek(long, binio::Offset)@Base" 1.4+dfsg1
+ (c++)"binowstream::putByte(unsigned char)@Base" 1.4+dfsg1
+ (c++)"binowstream::binowstream(std::basic_ostream<char, std::char_traits<char> >*)@Base" 1.4+dfsg1
+ (c++)"binowstream::binowstream(std::basic_ostream<char, std::char_traits<char> >*)@Base" 1.4+dfsg1
+ (c++)"binowstream::~binowstream()@Base" 1.4+dfsg1
+ (c++)"binowstream::~binowstream()@Base" 1.4+dfsg1
+ (c++)"binowstream::~binowstream()@Base" 1.4+dfsg1
+ (c++)"binio::system_flags@Base" 1.4+dfsg1
+ (c++)"binio::detect_system_flags()@Base" 1.4+dfsg1
+ (c++)"binio::eof()@Base" 1.4+dfsg1
+ (c++)"binio::error()@Base" 1.4+dfsg1
+ (c++)"binio::getFlag(binio::Flag)@Base" 1.4+dfsg1
+ (c++)"binio::setFlag(binio::Flag, bool)@Base" 1.4+dfsg1
+ (c++)"binio::binio()@Base" 1.4+dfsg1
+ (c++)"binio::binio()@Base" 1.4+dfsg1
+ (c++)"binio::~binio()@Base" 1.4+dfsg1
+ (c++)"binio::~binio()@Base" 1.4+dfsg1
+ (c++)"binio::~binio()@Base" 1.4+dfsg1
+ (c++)"binfbase::pos()@Base" 1.4+dfsg1
+ (c++)"binfbase::seek(long, binio::Offset)@Base" 1.4+dfsg1
+ (c++)"binfbase::close()@Base" 1.4+dfsg1
+ (c++)"binfbase::binfbase()@Base" 1.4+dfsg1
+ (c++)"binfbase::binfbase()@Base" 1.4+dfsg1
+ (c++)"binfbase::~binfbase()@Base" 1.4+dfsg1
+ (c++)"binfbase::~binfbase()@Base" 1.4+dfsg1
+ (c++)"binfbase::~binfbase()@Base" 1.4+dfsg1
+ (c++)"binsbase::pos()@Base" 1.4+dfsg1
+ (c++)"binsbase::seek(long, binio::Offset)@Base" 1.4+dfsg1
+ (c++)"binsbase::binsbase(void*, unsigned long)@Base" 1.4+dfsg1
+ (c++)"binsbase::binsbase(void*, unsigned long)@Base" 1.4+dfsg1
+ (c++)"binsbase::~binsbase()@Base" 1.4+dfsg1
+ (c++)"binsbase::~binsbase()@Base" 1.4+dfsg1
+ (c++)"binsbase::~binsbase()@Base" 1.4+dfsg1
+ (c++)"typeinfo for binfstream@Base" 1.4+dfsg1
+ (c++)"typeinfo for binistream@Base" 1.4+dfsg1
+ (c++)"typeinfo for binostream@Base" 1.4+dfsg1
+ (c++)"typeinfo for binsstream@Base" 1.4+dfsg1
+ (c++)"typeinfo for binwstream@Base" 1.4+dfsg1
+ (c++)"typeinfo for binifstream@Base" 1.4+dfsg1
+ (c++)"typeinfo for binisstream@Base" 1.4+dfsg1
+ (c++)"typeinfo for biniwstream@Base" 1.4+dfsg1
+ (c++)"typeinfo for binofstream@Base" 1.4+dfsg1
+ (c++)"typeinfo for binosstream@Base" 1.4+dfsg1
+ (c++)"typeinfo for binowstream@Base" 1.4+dfsg1
+ (c++)"typeinfo for binio@Base" 1.4+dfsg1
+ (c++)"typeinfo for binfbase@Base" 1.4+dfsg1
+ (c++)"typeinfo for binsbase@Base" 1.4+dfsg1
+ (c++)"typeinfo name for binfstream@Base" 1.4+dfsg1
+ (c++)"typeinfo name for binistream@Base" 1.4+dfsg1
+ (c++)"typeinfo name for binostream@Base" 1.4+dfsg1
+ (c++)"typeinfo name for binsstream@Base" 1.4+dfsg1
+ (c++)"typeinfo name for binwstream@Base" 1.4+dfsg1
+ (c++)"typeinfo name for binifstream@Base" 1.4+dfsg1
+ (c++)"typeinfo name for binisstream@Base" 1.4+dfsg1
+ (c++)"typeinfo name for biniwstream@Base" 1.4+dfsg1
+ (c++)"typeinfo name for binofstream@Base" 1.4+dfsg1
+ (c++)"typeinfo name for binosstream@Base" 1.4+dfsg1
+ (c++)"typeinfo name for binowstream@Base" 1.4+dfsg1
+ (c++)"typeinfo name for binio@Base" 1.4+dfsg1
+ (c++)"typeinfo name for binfbase@Base" 1.4+dfsg1
+ (c++)"typeinfo name for binsbase@Base" 1.4+dfsg1
+ (c++)"VTT for binfstream@Base" 1.4+dfsg1
+ (c++)"VTT for binistream@Base" 1.4+dfsg1
+ (c++)"VTT for binostream@Base" 1.4+dfsg1
+ (c++)"VTT for binsstream@Base" 1.4+dfsg1
+ (c++)"VTT for binwstream@Base" 1.4+dfsg1
+ (c++)"VTT for binifstream@Base" 1.4+dfsg1
+ (c++)"VTT for binisstream@Base" 1.4+dfsg1
+ (c++)"VTT for biniwstream@Base" 1.4+dfsg1
+ (c++)"VTT for binofstream@Base" 1.4+dfsg1
+ (c++)"VTT for binosstream@Base" 1.4+dfsg1
+ (c++)"VTT for binowstream@Base" 1.4+dfsg1
+ (c++)"VTT for binfbase@Base" 1.4+dfsg1
+ (c++)"VTT for binsbase@Base" 1.4+dfsg1
+ (c++)"vtable for binfstream@Base" 1.4+dfsg1
+ (c++)"vtable for binistream@Base" 1.4+dfsg1
+ (c++)"vtable for binostream@Base" 1.4+dfsg1
+ (c++)"vtable for binsstream@Base" 1.4+dfsg1
+ (c++)"vtable for binwstream@Base" 1.4+dfsg1
+ (c++)"vtable for binifstream@Base" 1.4+dfsg1
+ (c++)"vtable for binisstream@Base" 1.4+dfsg1
+ (c++)"vtable for biniwstream@Base" 1.4+dfsg1
+ (c++)"vtable for binofstream@Base" 1.4+dfsg1
+ (c++)"vtable for binosstream@Base" 1.4+dfsg1
+ (c++)"vtable for binowstream@Base" 1.4+dfsg1
+ (c++)"vtable for binio@Base" 1.4+dfsg1
+ (c++)"vtable for binfbase@Base" 1.4+dfsg1
+ (c++)"vtable for binsbase@Base" 1.4+dfsg1
+ (c++)"non-virtual thunk to binfstream::open(char const*, int)@Base" 1.4+dfsg1
+ (c++)"non-virtual thunk to binfstream::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)@Base" 1.4+dfsg1
+ (c++)"non-virtual thunk to binfstream::~binfstream()@Base" 1.4+dfsg1
+ (c++)"non-virtual thunk to binfstream::~binfstream()@Base" 1.4+dfsg1
+ (c++)"non-virtual thunk to binsstream::~binsstream()@Base" 1.4+dfsg1
+ (c++)"non-virtual thunk to binsstream::~binsstream()@Base" 1.4+dfsg1
+ (c++)"non-virtual thunk to binwstream::pos()@Base" 1.4+dfsg1
+ (c++)"non-virtual thunk to binwstream::seek(long, binio::Offset)@Base" 1.4+dfsg1
+ (c++)"non-virtual thunk to binwstream::putByte(unsigned char)@Base" 1.4+dfsg1
+ (c++)"non-virtual thunk to binwstream::~binwstream()@Base" 1.4+dfsg1
+ (c++)"non-virtual thunk to binwstream::~binwstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binfstream::~binfstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binfstream::~binfstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binistream::~binistream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binistream::~binistream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binostream::~binostream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binostream::~binostream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binsstream::~binsstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binsstream::~binsstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binwstream::~binwstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binwstream::~binwstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binifstream::~binifstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binifstream::~binifstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binisstream::~binisstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binisstream::~binisstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to biniwstream::~biniwstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to biniwstream::~biniwstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binofstream::~binofstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binofstream::~binofstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binosstream::~binosstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binosstream::~binosstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binowstream::~binowstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binowstream::~binowstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binfbase::~binfbase()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binfbase::~binfbase()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binsbase::~binsbase()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binsbase::~binsbase()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binfstream::~binfstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binfstream::~binfstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binsstream::~binsstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binsstream::~binsstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binwstream::seek(long, binio::Offset)@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binifstream::~binifstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binifstream::~binifstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binisstream::~binisstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binisstream::~binisstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to biniwstream::seek(long, binio::Offset)@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binofstream::~binofstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binofstream::~binofstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binosstream::~binosstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binosstream::~binosstream()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binowstream::seek(long, binio::Offset)@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binfbase::seek(long, binio::Offset)@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binsbase::seek(long, binio::Offset)@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binfstream::open(char const*, int)@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binwstream::pos()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binifstream::open(char const*, int)@Base" 1.4+dfsg1
+ (c++)"virtual thunk to biniwstream::pos()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binofstream::open(char const*, int)@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binowstream::pos()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binfbase::pos()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binsbase::pos()@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binfstream::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binifstream::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)@Base" 1.4+dfsg1
+ (c++)"virtual thunk to binofstream::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)@Base" 1.4+dfsg1
+#Sparc specific symbols
+ (optional|c++|arch=sparc ia64)"construction vtable for binistream-in-binfstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binifstream-in-binfstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binfbase-in-binfstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binostream-in-binfstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binofstream-in-binfstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binistream-in-binsstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binisstream-in-binsstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binsbase-in-binsstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binostream-in-binsstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binosstream-in-binsstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binistream-in-binwstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for biniwstream-in-binwstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binostream-in-binwstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binowstream-in-binwstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binistream-in-binifstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binfbase-in-binifstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binistream-in-binisstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binsbase-in-binisstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binistream-in-biniwstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binostream-in-binofstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binfbase-in-binofstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binostream-in-binosstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binsbase-in-binosstream@Base" 1.4+dfsg1
+ (optional|c++|arch=sparc ia64)"construction vtable for binostream-in-binowstream@Base" 1.4+dfsg1

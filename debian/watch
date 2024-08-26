@@ -1,0 +1,3 @@
+version=3
+opts=dversionmangle=s/\+dfsg1$//,repacksuffix=+dfsg \
+http://sf.net/libbinio/libbinio-([\d.]+)\.tar\.gz
